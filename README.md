@@ -1,27 +1,16 @@
-# TheF2eWeek3
+## 作品說明
+The F2E 全台公車動態時刻查詢應用服務…
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+## 系統說明
+專案運行方式是使用 ng serve
 
-## Development server
+## 資料夾說明
+app 為網站的 Layout
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 使用技術
+Angular
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+…
+## 第三方服務
+Leaflet
+Mapbox

@@ -1,3 +1,4 @@
+import { MapService } from './map.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements OnInit {
-  var mymap = L.map('map').setView([51.505, -0.09], 13);
-  constructor() { }
+  constructor(private map: MapService) {  }
 
   ngOnInit() {
+    this.map.buildMap();
   }
+
 
 }
